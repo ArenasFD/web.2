@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    
+
+    color: rgb(212, 123, 138);
+
+}
+
+header h1{
+    width: 50%;
+
+
+}
+
+button {
+    background-color: rgb(50, 162, 223);
+    border: solid black 2px;
+    padding: .5rem;
+    cursor: pointer;
+  margin-right: 1rem;
+  margin-top: 1rem;
+ 
+ 
+
+}
+
+body{
+    background-color: bisque;
+}
+
+main {
+   
+    display: flex;
+    margin: 1%;
+    padding: 2rem;
+    gap: 2rem;
+
+    
+
+}
+
+image {
+    #mainer{
+    border-color: rgb(0, 0, 0);
+}
+}
+
+
+.about{
+    #about{
+        background-color: rgb(215, 103, 159);
+    }
+
+    color: black;
+    
+}
+
+.bite1{  
+
+#mainer{
+     color: bisque;
+     border: solid black 2px;
+     background-color: brown;
+     padding-left: 1rem;
+     
+     
+}   
+#bite1{
+    background-color: rgb(215, 103, 159);
+}
+}
+
+.bite2 {
+    #mainer {
+        background-color: aquamarine;
+    color: rgb(91, 67, 144);
+    border: solid black 2px;
+    padding-left: 1rem;
+}
+#bite2{
+    background-color: rgb(215, 103, 159);
+}
+}
+.score {
+#mainer {
+    background-color: chocolate;
+    color: rgb(119, 60, 60);
+    border: solid black 2px;
+    padding-left: 1rem;
+    
+}
+#score{
+    background-color: rgb(215, 103, 159);
+}
+}
+
+
+#fd {
+    /* height: 350px; */
+    width: 350px;
+    object-fit: contain;
+    height: fit-content;
+    
+    border: solid black 2px;
+    
+    
+}
+ 
+@media screen and (max-width: 600px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main img{
+
+  max-width: 100%;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+
+
+}
+ }
+
+
+    
+ 
